@@ -1,0 +1,89 @@
+/* body {
+    background-image: url("assets/home/background-home-desktop.jpg");
+    background-size: 2000px 1000px;
+    background-size: auto;
+    color: white;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Rubik+Moonrocks&display=swap');
+body { 
+    background: url(assets/home/background-home-desktop.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    padding:100px;
+}
+
+.minorHeading{
+    font-family: "Oswald";
+    font-size: 30px;
+    color: rgb(208, 208, 208);
+    letter-spacing: 5px;
+}
+.heading{
+    font-family: "Rubik Moonrocks";
+    font-weight: lighter;
+    font-size: 240px;
+    letter-spacing: 10px;
+    margin-top: -30px !important;
+    padding: 10px;
+
+}
+.description{
+    color:white;
+    font-family: "Oswald";
+    margin-top: -100px !important;
+    font-size: 20px;
+    width:50%;
+    letter-spacing: 2px;
+}
+
+.major{
+    margin-top: 10%;
+}
+
+.explore{
+    position: absolute;
+    right:100px;
+    bottom: 100px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    font-size: 50px;
+}
+
+.topBar{
+    position: absolute;
+    right: 0px;
+    top:25px;
+    /* background-color: rgba(211, 216, 255, 0.413) !important; */
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(211, 216, 255, 0.413));
+    padding: 10px 10px 0px 10px;
+    width:1000px;
+    text-align: center;
+}
+.topBarButton{
+    background-color:transparent;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 100px;
+    font-family: "Oswald";
+    letter-spacing: 1px;
+
+}
+.topBarButton:hover{
+    background-color:transparent;
+    border-bottom: 2px solid white;
+}
+
+button:hover{
+    cursor: pointer;
+}
